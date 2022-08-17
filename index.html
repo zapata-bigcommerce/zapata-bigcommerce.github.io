@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Zapata [BC]</title>
+    <link rel="icon" type="image/gif" href="images/icons/flower-white.png"/>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="javascript/background_rotation.js"></script>
+    <script src="javascript/date-time.js"></script>
+</head>
+
+<body>
+    <div class="background-blur"></div>
+    <div class="flexbox-main">
+        <!-- Image Container -->
+        <div class="fm-item fm-image"></div>
+        <!-- Content Container -->
+        <div class="fm-item fm-content">
+            <!-- Clock -->
+            <div class="fmc-clock">
+                <!-- Time -->
+                <div class="fmc-clock-time">
+                    <h1 style="display:inline" id="js_time">Time</h1>
+                    <h2 style="display:inline" id="js_ampm">AM/PM</h2>
+                </div>
+                <!-- Date -->
+                <div class="fmc-clock-date">
+                    <h2 id="js_date">Date</h2>
+                    <h3 id="js_weekday">Weekday</h3>
+                </div>
+            </div>
+            <!-- Links -->
+            <div class="fmc-links">
+                <div class="fmc-container"><!-- Personal -->
+                    <h2>BigCommerce Apps</h2>
+                    <div class="fmc-container-items">
+                        <p>&RightAngleBracket;&RightAngleBracket; <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank" rel="noopener noreferrer">GMail</a></p>
+                        <p>&RightAngleBracket;&RightAngleBracket; <a href="https://drive.google.com/drive/my-drive" target="_blank" rel="noopener noreferrer">GDrive</a></p>
+                        <p>&RightAngleBracket;&RightAngleBracket; <a href="https://manage.bigcommerce.com/admin/dashboard" target="_blank" rel="noopener noreferrer">BMP</a></p>
+                        <p>&RightAngleBracket;&RightAngleBracket; <a href="https://bigcommerce.lightning.force.com/lightning/page/home" target="_blank" rel="noopener noreferrer">SalesForce</a></p>
+                        <p>&RightAngleBracket;&RightAngleBracket; <a href="https://www.zuora.com/platform/webapp" target="_blank" rel="noopener noreferrer">Zuora</a></p>
+                        <p>&RightAngleBracket;&RightAngleBracket; <a href="https://dashboard.stripe.com/dashboard" target="_blank" rel="noopener noreferrer">Stripe</a></p>
+                        <p>&RightAngleBracket;&RightAngleBracket; <a href="https://bigcommercecloud.atlassian.net/jira/your-work" target="_blank" rel="noopener noreferrer">Jira</a></p>
+                        <p>&RightAngleBracket;&RightAngleBracket; <a href="https://bigcommercecloud.atlassian.net/wiki/home" target="_blank" rel="noopener noreferrer">Confluence</a></p>
+                    </div>
+                </div>
+                <div class="fmc-container"><!-- Music -->
+                    <h2>Common Links</h2>
+                    <div class="fmc-container-items">
+                        <p>&RightAngleBracket;&RightAngleBracket; <a href="https://lucid.app/documents#/documents?folder_id=home" target="_blank" rel="noopener noreferrer">LucidChart</a></p>
+                        <p>&RightAngleBracket;&RightAngleBracket; <a href="" target="_blank" rel="noopener noreferrer">Snowflake</a></p>
+                        <p>&RightAngleBracket;&RightAngleBracket; <a href="https://github.com/" target="_blank" rel="noopener noreferrer">Github</a></p>
+                        <p>&RightAngleBracket;&RightAngleBracket; <a href="https://www.epochconverter.com/" target="_blank" rel="noopener noreferrer">Epoch TC</a></p>
+                        <p>&RightAngleBracket;&RightAngleBracket; <a href="https://support.bigcommerce.com/s/knowledge?language=en_US" target="_blank" rel="noopener noreferrer">BC KnowledgeBase</a></p>
+                    </div>
+                </div>
+                <div class="fmc-container"> <!-- Socials -->
+                    <h2>FinOps</h2>
+                    <div class="fmc-container-items">
+                        <p id="sub-point">[</p>
+                        <p id="sub-point"> <a href="https://drive.google.com/drive/folders/0AJrUmTYnHr3vUk9PVA" target="_blank" rel="noopener noreferrer">GDrive</a></p>
+                        <p id="sub-point"> <a href="https://bigcommercecloud.atlassian.net/wiki/spaces/FINOPS/overview" target="_blank" rel="noopener noreferrer">Confluence</a></p>
+                        <p id="sub-point"> <a href="https://docs.google.com/document/d/1B2ol4DkzEy9HpYcq2mHqmuMiinCiBC9MkmuB-rZX3jg/edit" target="_blank" rel="noopener noreferrer">BiWeekly</a></p>
+                        <p id="sub-point">]</p>
+                    </div>
+                </div>
+                <div class="fmc-container"> <!-- Games -->
+                    <h2>Partner Billing</h2>
+                    <div class="fmc-container-items">
+                        <p id="sub-point">[</p>
+                        <p id="sub-point"> <a href="https://partners.bigcommerce.com/English/" target="_blank" rel="noopener noreferrer">Partner Portal</a></p>
+                        <p id="sub-point"> <a href="https://docs.google.com/document/d/13n8-CTsjakO2iMNKC1ka-YmNTM7YBt1P-qDlNAeSQN8/edit?pli=1" target="_blank" rel="noopener noreferrer">GD: Partner Projects</a></p>
+                        <p id="sub-point"> <a href="https://docs.google.com/spreadsheets/d/1P-VTxb46yl59mnzun_urgx7e2iRy3pgTX4ff-gctumc/edit#gid=22426129" target="_blank" rel="noopener noreferrer">GD: RevShare Response</a></p>
+                        <p id="sub-point"> <a href="https://docs.google.com/document/d/1EqAJpbzWO0tPcWwSTili8PiOrV72r4NvSUA4mPHQiwk/edit" target="_blank" rel="noopener noreferrer">GD: $0 Upload</a></p>
+                        <p id="sub-point"> <a href="https://bigcommerce.lightning.force.com/lightning/o/Case/list?filterName=00B1B00000AM9dj" target="_blank" rel="noopener noreferrer">SF: Partner Cases</a></p>
+                        <p id="sub-point">]</p>
+                    </div>
+                </div>
+                <div class="fmc-container"> <!-- Games -->
+                    <h2>Provisioning</h2>
+                    <div class="fmc-container-items">
+                        <p id="sub-point">[</p>
+                        <p id="sub-point"> <a href="https://bigcommercecloud.atlassian.net/wiki/spaces/ARB/pages/15663281/Store+Provisioning+Training" target="_blank" rel="noopener noreferrer">C: Provisioning</a></p>
+                        <p id="sub-point"> <a href="https://docs.google.com/document/d/1ZDSWzp0kURq5PDup0XF6afxcfkj0Kk2TmN1jw1Zv4OA/edit" target="_blank" rel="noopener noreferrer">GD: Provisioning Projects</a></p>
+
+                        <p id="sub-point"> <a href="https://bigcommerce.lightning.force.com/lightning/r/Report/00O4O000003m3mKUAQ/view" target="_blank" rel="noopener noreferrer">SF: PSOpps</a></p>
+                        <p id="sub-point"> <a href="https://bigcommerce.lightning.force.com/lightning/r/Report/00O4O000003bzh7/view" target="_blank" rel="noopener noreferrer">SF: Upgrades</a></p>
+                        <p id="sub-point"> <a href="https://bigcommerce.lightning.force.com/lightning/r/Report/00O4O000003mH0B/view" target="_blank" rel="noopener noreferrer">SF: NNS</a></p>
+                        
+                        
+                        
+                        <p id="sub-point"> <a href="https://docs.google.com/spreadsheets/d/1SIDmMBG4Z18LZi9OSpX7JwpkiGqEWhX8KH9Ghns2F20/edit#gid=1522226262" target="_blank" rel="noopener noreferrer">GD: Tiers</a></p>
+                        <p id="sub-point"> <a href="https://docs.google.com/spreadsheets/d/1Vax1i-__UhKB3GhfnW2XlN8keA9AcpAmXlkUWUzKduU/edit#gid=1129440719" target="_blank" rel="noopener noreferrer">GD: AUogrades</a></p>
+                        <p id="sub-point"> <a href="https://docs.google.com/spreadsheets/d/1YgFBN5TGBj8jpjNqza7gYW_QPNfnDo4b1UDaMEViyYk/edit#gid=0" target="_blank" rel="noopener noreferrer">GD: AT TAM</a></p>
+                        <p id="sub-point">]</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+</body>
+</html>
